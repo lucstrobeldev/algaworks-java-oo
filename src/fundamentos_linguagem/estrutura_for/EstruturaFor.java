@@ -3,6 +3,7 @@ package fundamentos_linguagem.estrutura_for;
 import java.util.Scanner;
 
 public class EstruturaFor {
+    //correcao de commit
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
