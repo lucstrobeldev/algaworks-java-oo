@@ -1,4 +1,4 @@
-package fundamentos_linguagem;
+package fundamentos_linguagem.entrada_de_dados;
 
 import java.util.Scanner;
 

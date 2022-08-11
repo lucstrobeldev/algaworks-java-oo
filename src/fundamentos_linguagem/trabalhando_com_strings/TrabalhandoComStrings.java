@@ -1,4 +1,4 @@
-package fundamentos_linguagem;
+package fundamentos_linguagem.trabalhando_com_strings;
 
 public class TrabalhandoComStrings {
     public static void main(String[] args) {

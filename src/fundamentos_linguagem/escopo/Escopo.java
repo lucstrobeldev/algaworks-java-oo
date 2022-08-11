@@ -1,4 +1,4 @@
-package fundamentos_linguagem;
+package fundamentos_linguagem.escopo;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package fundamentos_linguagem;
+package fundamentos_linguagem.operadores_de_comparacao_e_igualdade;
 
 public class OperadoresDeComparacaoEIgualdade {
     public static void main(String[] args) {

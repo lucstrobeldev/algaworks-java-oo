@@ -1,4 +1,4 @@
-package fundamentos_linguagem;
+package fundamentos_linguagem.descobre_ano_bissexto;
 
 import java.util.Scanner;
 

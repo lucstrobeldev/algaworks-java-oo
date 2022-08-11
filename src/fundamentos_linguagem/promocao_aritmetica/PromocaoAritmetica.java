@@ -1,4 +1,4 @@
-package fundamentos_linguagem;
+package fundamentos_linguagem.promocao_aritmetica;
 
 public class PromocaoAritmetica {
 
