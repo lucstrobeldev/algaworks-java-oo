@@ -7,8 +7,9 @@ public class Carro {
     String modelo;
     String cor;
     int anoDeFabricacao;
-
     //criamos a classe carro com as propriedades e seus tipos
     //porém essas variaveis só existirao se houver um objeto
+
+    Proprietario dono;
 
 }
