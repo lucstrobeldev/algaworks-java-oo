@@ -17,7 +17,15 @@ public class Principal02 {
         meuCarro.fabricante = "Fiat";
         meuCarro.dono = proprietario;
 
+        Carro seuCarro = new Carro();
+        seuCarro.modelo = "Civic";
+
 
         System.out.println("Proprietario: " + proprietario.nome);
+
+        //Criando, nomeando e chamando métodos
+        meuCarro.ligar();
+        seuCarro.ligar();
+
     }
 }

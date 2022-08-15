@@ -12,4 +12,10 @@ public class Carro {
 
     Proprietario dono;
 
+    //criando, nomeando e chamando métodos
+    void ligar(){
+        //escopo do método
+        System.out.println("Ligando o carro: " + modelo);
+    }
+
 }
