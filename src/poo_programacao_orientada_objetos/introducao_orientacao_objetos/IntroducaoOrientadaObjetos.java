@@ -1,4 +1,4 @@
-package poo_programacao_orientada_objetos;
+package poo_programacao_orientada_objetos.introducao_orientacao_objetos;
 
 public class IntroducaoOrientadaObjetos {
 
