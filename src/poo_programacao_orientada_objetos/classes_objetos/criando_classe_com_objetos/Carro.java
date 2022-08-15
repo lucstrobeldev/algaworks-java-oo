@@ -15,7 +15,9 @@ public class Carro {
     //criando, nomeando e chamando métodos
     void ligar(){
         //escopo do método
-        System.out.println("Ligando o carro: " + modelo);
+        if (modelo != null){
+            System.out.println("Ligando o carro: " + modelo);
+        }
     }
-
+    //como nós temos o tipo do método como void, significa que ele nao retorna nada
 }
