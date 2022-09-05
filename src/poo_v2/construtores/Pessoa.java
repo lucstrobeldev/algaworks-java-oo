@@ -6,6 +6,7 @@ public class Pessoa {
 
     int idade;
 
+    //SEM O CONSTRUTOR O OBJETO NAO EXISTE
     public Pessoa(String nome) {
         this.nome = nome;
 
