@@ -21,7 +21,7 @@ public class TesteCheckout {
         Compra compra = new Compra();
         compra.setNomeCliente("Joao Mendes Couves");
         compra.setProduto("Sabonetes");
-        compra.getValorTotal();
+        compra.setValorTotal(5.5);
 
         Checkout checkout = new Checkout(operadora, impressora);
         checkout.fecharCompra(compra, cartao);
