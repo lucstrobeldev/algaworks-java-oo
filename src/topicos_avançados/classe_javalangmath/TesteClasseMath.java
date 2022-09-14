@@ -32,7 +32,12 @@ public class TesteClasseMath {
         System.out.println("Seno: " + Math.sin(40));
 
         // Numeros randomicos
-        double numeroAleatorio = Math.round(Math.random() * 100);
+        // para que o cast desse certo nessa situacao, precisamos lembrar que a leitura do código
+        // é feita da esquerda para a direita, por tanto se nao colocassemos o Math.random * 100 dentro
+        // de um parenteses, o que iria acontecer é o cast seria feito somente para o metodo random
+        // e como o metodo random é 0 a < 1, portanto nunca chega a 1, seria sempre arredondado para 0
+        // e 0 * 100 == 0.
+        double numeroAleatorio = (int) (Math.random() * 100);
         System.out.println(numeroAleatorio);
 
     }
