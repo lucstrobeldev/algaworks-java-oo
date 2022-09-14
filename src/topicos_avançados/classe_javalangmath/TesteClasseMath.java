@@ -40,5 +40,7 @@ public class TesteClasseMath {
         double numeroAleatorio = (int) (Math.random() * 100);
         System.out.println(numeroAleatorio);
 
+
+
     }
 }
